@@ -10,7 +10,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("CurrencyConverter.fxml"));
-        Scene scene = new Scene(root, 600, 500);
+        Scene scene = new Scene(root, 700, 600);
 
         primaryStage.setTitle("Currency Converter");
         primaryStage.setScene(scene);
